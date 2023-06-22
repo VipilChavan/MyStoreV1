@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [------Suite=MyStoreV1--------]">
+  <listeners>
+    <listener class-name="com.mystore.utilities.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="----Test=MystoreTest-----------(failed)">
+    <classes>
+      <class name="com.mystore.testcases.ProductPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyBuyProduct"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.ProductPageTest -->
+    </classes>
+  </test> <!-- -Test=MystoreTest-(failed) -->
+</suite> <!-- Failed suite [-Suite=MyStoreV1-] -->
