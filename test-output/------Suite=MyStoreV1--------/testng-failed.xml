@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="com.mystore.utilities.ExtentListener"/>
   </listeners>
-  <test thread-count="5" name="----Test=MystoreTest-----------(failed)">
+  <test thread-count="5" name="RegistrationTest(failed)">
     <classes>
-      <class name="com.mystore.testcases.ProductPageTest">
+      <class name="com.mystore.testcases.RegistrationTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyLogin"/>
           <include name="setup"/>
-          <include name="verifyBuyProduct"/>
         </methods>
-      </class> <!-- com.mystore.testcases.ProductPageTest -->
+      </class> <!-- com.mystore.testcases.RegistrationTest -->
     </classes>
-  </test> <!-- -Test=MystoreTest-(failed) -->
+  </test> <!-- RegistrationTest(failed) -->
 </suite> <!-- Failed suite [-Suite=MyStoreV1-] -->

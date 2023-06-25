@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-______Suite_MyStoreV1________">
-              <span class="suite-name border-failed">------Suite=MyStoreV1--------</span>
+              <span class="suite-name border-passed">------Suite=MyStoreV1--------</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-______Suite_MyStoreV1________">
-                    <span>C:\Users\amayra\IdeaProjects\MyStoreV1\testng.xml</span>
+                    <span>C:\Users\amayra\IdeaProjects\MyStoreV1\testng_RegistrationTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-______Suite_MyStoreV1________" class="hide-methods failed suite-______Suite_MyStoreV1________"> (hide)</a> <!-- hide-methods failed suite-______Suite_MyStoreV1________ -->
-                      <a href="#" panel-name="suite-______Suite_MyStoreV1________" class="show-methods failed suite-______Suite_MyStoreV1________"> (show)</a> <!-- show-methods failed suite-______Suite_MyStoreV1________ -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-______Suite_MyStoreV1________" class="hide-methods passed suite-______Suite_MyStoreV1________"> (hide)</a> <!-- hide-methods passed suite-______Suite_MyStoreV1________ -->
+                      <a href="#" panel-name="suite-______Suite_MyStoreV1________" class="show-methods passed suite-______Suite_MyStoreV1________"> (show)</a> <!-- show-methods passed suite-______Suite_MyStoreV1________ -->
                     </span>
-                    <div class="method-list-content failed suite-______Suite_MyStoreV1________">
+                    <div class="method-list-content passed suite-______Suite_MyStoreV1________">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-______Suite_MyStoreV1________" title="com.mystore.testcases.ProductPageTest" hash-for-method="verifyBuyProduct">verifyBuyProduct</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-______Suite_MyStoreV1________" title="com.mystore.testcases.RegistrationTest" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-______Suite_MyStoreV1________ -->
+                    </div> <!-- method-list-content passed suite-______Suite_MyStoreV1________ -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,47 +119,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-______Suite_MyStoreV1________" class="panel ______Suite_MyStoreV1________">
-          <div class="suite-______Suite_MyStoreV1________-class-failed">
+          <div class="suite-______Suite_MyStoreV1________-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.mystore.testcases.ProductPageTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.testcases.RegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyBuyProduct">
-                  </a> <!-- verifyBuyProduct -->
-                  <span class="method-name">verifyBuyProduct</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=113.0.5672.93)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;VIPIL&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\amayra\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:9641}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a6d0f4d10687fefdb715d5cfa19f4b0e
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.clear(Unknown Source)
-	at com.mystore.pageobjects.OrderBuyingTshirtPage.setQuantityWanted(OrderBuyingTshirtPage.java:41)
-	at com.mystore.testcases.ProductPageTest.verifyBuyProduct(ProductPageTest.java:94)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 39 stack frames
-</div> <!-- stack-trace -->
+                  <a name="verifyLogin">
+                  </a> <!-- verifyLogin -->
+                  <span class="method-name">verifyLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-______Suite_MyStoreV1________-class-failed -->
+          </div> <!-- suite-______Suite_MyStoreV1________-class-passed -->
         </div> <!-- panel ______Suite_MyStoreV1________ -->
         <div panel-name="test-xml-______Suite_MyStoreV1________" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\amayra\IdeaProjects\MyStoreV1\testng.xml</span>
+            <span class="header-content">C:\Users\amayra\IdeaProjects\MyStoreV1\testng_RegistrationTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -169,11 +147,16 @@ Session ID: a6d0f4d10687fefdb715d5cfa19f4b0e
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.mystore.utilities.ExtentListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;----Test=MystoreTest-----------&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;----------RegistrationTest------------&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.mystore.testcases.ProductPageTest&quot;/&gt;
+      &lt;class name=&quot;com.mystore.testcases.RegistrationTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyUserRegistration&quot;/&gt;
+          &lt;include name=&quot;verifyLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.mystore.testcases.RegistrationTest --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- -Test=MystoreTest- --&gt;
+  &lt;/test&gt; &lt;!-- -RegistrationTest- --&gt;
 &lt;/suite&gt; &lt;!-- -Suite=MyStoreV1- --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,7 +168,7 @@ Session ID: a6d0f4d10687fefdb715d5cfa19f4b0e
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">----Test=MystoreTest----------- (1 class)</span>
+                <span class="test-name">----------RegistrationTest------------ (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -213,14 +196,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyBuyProduct')
-data.setCell(0, 2, 'com.mystore.testcases.ProductPageTest')
-data.setCell(0, 3, 17421);
+data.setCell(0, 1, 'verifyLogin')
+data.setCell(0, 2, 'com.mystore.testcases.RegistrationTest')
+data.setCell(0, 3, 1945);
 window.suiteTableData['______Suite_MyStoreV1________']= { tableData: data, tableDiv: 'times-div-______Suite_MyStoreV1________'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-______Suite_MyStoreV1________">
               </div> <!-- times-div-______Suite_MyStoreV1________ -->
             </div> <!-- times-div -->
@@ -235,16 +218,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-______Suite_MyStoreV1________" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.mystore.testcases.ProductPageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifySearchProduct</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-______Suite_MyStoreV1________" class="panel">
@@ -253,20 +229,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.mystore.testcases.ProductPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.mystore.testcases.RegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyBuyProduct</span>
-                <span class="method-start">21821 ms</span>
+                <span class="method-name">verifyLogin</span>
+                <span class="method-start">9049 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39276 ms</span>
+                <span class="method-start">11002 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
